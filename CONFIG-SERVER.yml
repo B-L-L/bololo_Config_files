@@ -1,4 +1,5 @@
-app:
+spring:
+ application:
    name: CONFIG-SERVER
    Description: TajiSugu config server microservice
   
