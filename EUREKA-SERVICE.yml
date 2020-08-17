@@ -1,8 +1,6 @@
 spring:
  application:
   name: EUREKA-SERVICE
- profiles:
-  active: test
  eureka:
    client:
       registerWithEureka: false
