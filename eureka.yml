@@ -1,7 +1,8 @@
 spring:
  application:
   name: eureka
-
+ profiles:
+  active: test,production
  eureka:
    client:
       registerWithEureka: false
