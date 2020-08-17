@@ -1,6 +1,6 @@
 spring:
  application:
-  name: eureka
+  name: EUREKA-SERVICE
  profiles:
   active: test
  eureka:
