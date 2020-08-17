@@ -1,0 +1,12 @@
+app:
+   name: LUBRIFIANT-SERVICE
+   Description: TajiSugu lubrifiant service
+  
+db:
+   connection: "{connectionString:'http://___',userName:'', password:''}"
+   host: 127.0.0.1
+   port: 1200
+   
+
+management.endpoints.web.exposure.include: "*"
+ 

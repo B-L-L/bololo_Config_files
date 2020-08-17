@@ -1,0 +1,12 @@
+app:
+   name: PRODUIT-SERVICE
+   Description: TajiSugu product microservice
+  
+db:
+   connection: "{connectionString:'http://___',userName:'', password:''}"
+   host: 
+   port: 
+   
+
+management.endpoints.web.exposure.include: "*"
+ 

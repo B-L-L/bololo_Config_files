@@ -1,0 +1,12 @@
+app:
+   name: SOCIETE-SERVICE
+   Description: TajiSugu societe microservice
+  
+db:
+   connection: "{connectionString:'http://___',userName:'', password:''}"
+   host: 
+   port: 
+   
+
+management.endpoints.web.exposure.include: "*"
+ 
