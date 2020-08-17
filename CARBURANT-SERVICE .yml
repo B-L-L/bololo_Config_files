@@ -1,6 +1,7 @@
-app:
+spring:
+ application:
    name: CARBURANT-SERVICE
-    Description: TajiSugu carburant microservice
+   Description: TajiSugu carburant microservice
   
 db:
    connection: "{connectionString:'http://___',userName:'', password:''}"
