@@ -2,7 +2,7 @@ spring:
  application:
   name: eureka
  profiles:
-  active: test,production
+  active: test
  eureka:
    client:
       registerWithEureka: false
