@@ -2,6 +2,8 @@ spring:
  application:
    name: CARBURANT-SERVICE
    Description: TajiSugu carburant microservice
+ profiles:
+   active: test,production
   
 db:
    connection: "{connectionString:'http://___',userName:'', password:''}"
