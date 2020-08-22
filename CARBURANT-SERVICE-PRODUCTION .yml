@@ -1,0 +1,17 @@
+spring:
+ application:
+   name: CARBURANT-SERVICE
+   Description: TajiSugu carburant microservice
+ profiles:
+   active: PRODUCTION
+
+ server:
+  port: 0
+
+eureka:
+   client:
+      registerWithEureka: true
+      fetchRegistry: true
+      serviceUrl:
+        defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+
